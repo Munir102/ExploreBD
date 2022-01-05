@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.body{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #DEF0F1;
+}
+  /* menu part css start here  */
+.menu_bg{
+    background-color: #186267;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #F8904D;
+}
+
+/* banner part css start here  */
+#banner{
+    background: url(../img/chittagong/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.banner_desc{
+    padding-top: 400px;
+    padding-bottom: 50px;
+}
+.banner_desc h2,.banner_desc h5{
+    color: rgb(255, 255, 255);
+}
+/* path part css start here  */
+.showing_path{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* chittagong part css start here  */
+.desOfChitta{
+    margin-bottom: 80px;
+}
+.description p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.description h6{
+    margin-bottom: 13px;
+}
+
+/* historical places css start here  */
+.his_header h4 {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding: 11px 20px;
+    background-color: white;
+    border-radius: 1.5rem;
+    width: 654px;
+    text-align: center;
+    margin-left: 230px;
+}
+
+.places{
+    margin-top: 70px;
+}
+.places_des{
+    background-color: white;
+}
+.places_details h4{
+    color: rgb(109, 109, 221);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.places_details:hover{
+    background-color: rgb(38, 238, 238);
+}
+.places_details:hover h4 a{
+    color:black;
+}
+.places_details p{
+    font-size: 14px;
+    color: #103B46;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-transform:capitalize;
+}
+.places_details img{
+    border-radius: .5rem;
+}
+.places_details{
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0px 3px 8px rgb(116, 114, 114);
+}
+.sec_row{
+   margin-top: 8px; 
+}
+
+/* nxt-pages btn css start here  */
+#nxt_btn{
+    margin-bottom: 30px;
+}
+.nxt_page{
+    margin-top: 30px;
+    display: flex;
+}
+.one,.two,.three,.four{
+    padding: 9px 20px;
+    padding-top: 11px;
+    background-color: #B3D2DF;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.nxt{
+    padding: 9px 20px;
+    padding-top: 11px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.one:hover,.two:hover,.three:hover,.four:hover,.nxt:hover{
+    background-color: cornsilk;
+    color: black;
+}
+  
+/* footer part css start here  */
+
+footer{
+    background-color: #186267;
+    padding-bottom: 40px;
+}
+.footer_part{
+    padding-top: 50px;
+}
+.footer_part p{
+    padding-top: 20px;
+    font-size: 13px;
+    color: rgb(211, 210, 208);
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.sec_part h4{
+    color: white;
+    text-transform: uppercase;
+}
+.icon_list a{
+    padding-right: 8px;
+}
+.sec_part h4{
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.underline1{
+    height: 2px;
+    width: 130px;
+    background-color: blanchedalmond;
+}
+.underline{
+    height: 2px;
+    width: 130px;
+    background-color: blanchedalmond;
+}
+.short_links{
+    padding-top: 25px;
+}
+.s_lower{
+    margin-bottom: 20px;
+}
+.short_links ul{
+    padding-left: 0px;
+    color: white;
+}
+.short_links ul li{
+    font-size: 15px;
+    padding-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.short_links a{
+    color: white;
+}
+.short_links a:hover{
+    color: #F8904D;
+}
+.contacts{
+    padding-top: 50px;
+}
+.contacts h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.underlinee{
+    height: 2px;
+    width: 135px;
+    background-color: blanchedalmond;
+}
+.con_info{
+    padding-top: 25px;
+}
+.con_info h5{
+    font-size: 15px;
+    color: white;
+}
+.s2nd{
+    padding-left: 43px;
+}
+.t3nd{
+    padding-left: 38px;
+}
+.g_head{
+    padding-top: 50px;
+}
+.g_head h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.image_sec{
+    padding-top: 30px;
+}
+.img_sec1 img,.img_sec2 img{
+    padding-bottom: 20px;
+}
+.con_info p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: rgb(255, 255, 255);
+}
+.new_clr{
+    color: rgb(255, 174, 0);
+    font-family: 'Patrick Hand', cursive;
+}
+.contacts{
+    margin-left: 56px;
+}

@@ -1,0 +1,426 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.body{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #DEF0F1;
+}
+/* menu part css start here  */
+.menu_bg{
+  background-color: #186267;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+  font-size: 18px;
+  padding-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #F8904D;
+}
+/* banner part css start here */
+
+#banner{
+  background: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+.bannner_part{
+  padding-top: 250px;
+}
+.bannner_part h4{
+  font-size: 38px;
+  font-weight: 600px;
+  font-family: 'Lato', sans-serif;
+  color: #FFF7F7;
+}
+.bannner_part p{
+  color:#FFF7F7;
+  padding-bottom: 30px;
+}
+.search_option{
+  background-color: rgba(186,161,147,.4);
+  padding: 20px 20px;
+  border-radius: 0.5rem;
+}
+.search_btn{
+  text-align: center;
+  margin-top:5px;
+}
+.search_btn a{
+  padding: 7px 115px;
+  background-color: #F89452;
+  color: white;
+  border-radius: 0.2rem;
+}
+
+/* explore special part css start here */
+
+#explore_special{
+  background-color: #DEF0F1;
+}
+.special_explore{
+  padding-top: 100px;
+  text-align: center;
+  font-weight: 600;
+}
+.special_explore h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.Four_sections{
+  padding-top: 30px;
+}
+.bx{
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 5%;
+}
+.bx p{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* about us part css start here  */
+
+.travel_agen{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.des_of_agency h4{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px;
+}
+.des_of_agency p{
+  text-align: justify;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+/* popular adventure part css start here */
+
+.popu_places{
+  text-align: center;
+}
+.popu_places h2{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  padding-bottom: 50px;
+}
+.places_desc{
+  background-color: white;
+  border-radius: 5%;
+  padding-bottom: 30px;
+}
+.places_desc h4{
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+}
+.places_desc h5{
+  font-size: 15px;
+  background-color: rgba(178,189,187,1);
+  margin: 0 80px;
+  padding: 9px 20px;
+  border-radius: 1rem;
+}
+.places_desc p{
+  font-size: 14px;
+  margin: 0 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.places_desc a{
+  padding: 7px 20px;
+  background-color: white;
+  border: 0.5px solid black;
+  color: black;
+  border-radius: 1.4rem;
+}
+.places_desc a:hover{
+  background-color: #6FCEEA;
+}
+
+/* offer part css start here */
+
+#offer_part{
+  margin-top: 100px;
+  background: url(../img/offerbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bx2{
+  margin-top: 70px;
+  text-align: center;
+  background-color: white;
+  margin-bottom:  70px;
+  padding-bottom: 70px;
+  border-radius: 0.5rem;
+}
+.bx2 h2{
+  padding-top: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.bx2 h4{
+  background-color: rgba(208,194,202,.7);
+  margin: 0 135px;
+  padding: 9px 20px;
+  border-radius: 0.5rem;
+}
+.bx2 p{
+  margin: 30px 30px;
+
+}
+.bx2 a{
+  padding: 7px 20px;
+  background-color: white;
+  color: black;
+  background-color: #E88D51;
+  border-radius: 1.2rem;
+}
+.bx2 a:hover{
+  background-color:  rgba(208,194,202,.7);
+}
+
+/* popolar place css start here */
+.mst_popular{
+  margin-top: 100px;
+}
+.descriptionOfPlaaces{
+  margin-top: 20px;
+}
+.descriptionOfPlaaces h6{
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  color: green;
+}
+.descriptionOfPlaaces h4{
+  font-weight: 800;
+  font-size: 30px;
+}
+.descriptionOfPlaaces p{
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  padding-bottom: 15px;
+}
+.descriptionOfPlaaces a{
+  padding: 7px 20px;
+  background-color:green;
+  color: white;
+  border-radius: .6rem;
+}
+.descriptionOfPlaaces a:hover{
+  background-color: white;
+  color: black;
+  border: .5px solid black;
+}
+.sec_row{
+  margin-top: 30px;
+}
+#colclusion{
+  background: url(../img/conclusion.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.conclusin{
+  padding-top: 37%;
+  text-align: center;
+  margin-top: 66px;
+}
+.conclusin h4{
+  position: relative;
+  top: -78px;
+}
+.conclusin a{
+  position: relative;
+  top: -60px;
+  padding: 7px 20px;
+  background-color: #E88D51;
+  color: white;
+}
+.conclusin a:hover{
+  background-color: #DEF0F1;
+  color: black;
+  border: 0.5px solid black;
+}
+.rev_and_testi{
+  text-align: center;
+  margin-top: 80px;
+}
+.rev_and_testi h4{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.part{
+  margin-top: 50px;
+}
+.review{
+  background-color: white;
+}
+.review p{
+  font-size: 14px;
+  padding-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+  padding-bottom: 25px;
+  font-family: 'Satisfy', cursive;
+}
+.review h5{
+  text-align: right;
+  font-weight: 600;
+  margin-right: 30px;
+}
+.review h6{
+  font-size: 14px;
+  text-align: right;
+  font-weight: 500;
+  margin-right: 30px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+.reviewer_img {
+    position: relative;
+    top: -55px;
+}
+
+/* footer part css start here  */
+
+footer{
+    background-color: #186267;
+    padding-bottom: 40px;
+}
+.footer_part{
+    padding-top: 50px;
+}
+.footer_part p{
+    padding-top: 20px;
+    font-size: 13px;
+    color: rgb(211, 210, 208);
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.sec_part h4{
+    color: white;
+    text-transform: uppercase;
+}
+.icon_list a{
+    padding-right: 8px;
+}
+.sec_part h4{
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.underline1{
+    height: 2px;
+    width: 130px;
+    background-color: blanchedalmond;
+}
+.underline{
+    height: 2px;
+    width: 130px;
+    background-color: blanchedalmond;
+}
+.short_links{
+    padding-top: 25px;
+}
+.s_lower{
+    margin-bottom: 20px;
+}
+.short_links ul{
+    padding-left: 0px;
+    color: white;
+}
+.short_links ul li{
+    font-size: 15px;
+    padding-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.short_links a{
+    color: white;
+}
+.short_links a:hover{
+    color: #F8904D;
+}
+.contacts{
+    padding-top: 50px;
+}
+.contacts h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.underlinee{
+    height: 2px;
+    width: 135px;
+    background-color: blanchedalmond;
+}
+.con_info{
+    padding-top: 25px;
+}
+.con_info h5{
+    font-size: 15px;
+    color: white;
+}
+.s2nd{
+    padding-left: 43px;
+}
+.t3nd{
+    padding-left: 38px;
+}
+.g_head{
+    padding-top: 50px;
+}
+.g_head h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.image_sec{
+    padding-top: 30px;
+}
+.img_sec1 img,.img_sec2 img{
+    padding-bottom: 20px;
+}
+.con_info p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: rgb(255, 255, 255);
+}
+.new_clr{
+    color: rgb(255, 174, 0);
+    font-family: 'Patrick Hand', cursive;
+}
+.contacts{
+    margin-left: 56px;
+}
+
+
+/* footer part css end here */

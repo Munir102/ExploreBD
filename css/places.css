@@ -1,0 +1,239 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.body{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ecf4f5;
+}
+/* menu part css start here  */
+.menu_bg{
+  background-color: #186267;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+  font-size: 18px;
+  padding-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #F8904D;
+}
+
+/* banner part css start here  */
+#banner{
+background: url(../img/places/banner5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner_part{
+    padding-top: 500px;
+    padding-bottom: 50px;
+    text-align: right;
+}
+.banner_part h4{
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'IM Fell English SC', serif;
+}
+.bd_img{
+    text-align: center;
+}
+.bd_img h4{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgb(201, 201, 201);
+    padding-top: 50px;
+}
+.bd_img h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color:rgb(70, 68, 68);
+    position: relative;
+    top: -39px;
+}
+.division_name{
+    position: relative;
+    margin-bottom: 50px;
+}
+.dhaka{
+    position: absolute;
+    top: -274px;
+    left: 527px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.Chitagong{
+    position: absolute;
+    top: -182px;
+    left: 622px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.Khulna{
+    position: absolute;
+    top: -182px;
+    left: 462px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.Barisal{
+    position: absolute;
+    top: -148px;
+    left: 534px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.Rangpur{
+    position: absolute;
+    top: -413px;
+    left: 434px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.Rajshahi{
+    position: absolute;
+    top: -332px;
+    left: 628px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+.Sylhet{
+    position: absolute;
+    top: -326px;
+    left: 433px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+footer{
+    background-color: #186267;
+    padding-bottom: 40px;
+}
+.footer_part{
+    padding-top: 50px;
+}
+.footer_part p{
+    padding-top: 20px;
+    font-size: 13px;
+    color: rgb(211, 210, 208);
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.sec_part h4{
+    color: white;
+    text-transform: uppercase;
+}
+.icon_list a{
+    padding-right: 8px;
+}
+.sec_part h4{
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.underline1{
+    height: 2px;
+    width: 130px;
+    background-color: blanchedalmond;
+}
+.underline{
+    height: 2px;
+    width: 130px;
+    background-color: blanchedalmond;
+}
+.short_links{
+    padding-top: 25px;
+}
+.s_lower{
+    margin-bottom: 20px;
+}
+.short_links ul{
+    padding-left: 0px;
+    color: white;
+}
+.short_links ul li{
+    font-size: 15px;
+    padding-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.short_links a{
+    color: white;
+}
+.short_links a:hover{
+    color: #F8904D;
+}
+.contacts{
+    padding-top: 50px;
+}
+.contacts h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.underlinee{
+    height: 2px;
+    width: 135px;
+    background-color: blanchedalmond;
+}
+.con_info{
+    padding-top: 25px;
+}
+.con_info h5{
+    font-size: 15px;
+    color: white;
+}
+.s2nd{
+    padding-left: 43px;
+}
+.t3nd{
+    padding-left: 38px;
+}
+.g_head{
+    padding-top: 50px;
+}
+.g_head h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.image_sec{
+    padding-top: 30px;
+}
+.img_sec1 img,.img_sec2 img{
+    padding-bottom: 20px;
+}
+.con_info p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: rgb(255, 255, 255);
+}
+.new_clr{
+    color: rgb(255, 174, 0);
+    font-family: 'Patrick Hand', cursive;
+}
+.contacts{
+    margin-left: 56px;
+}

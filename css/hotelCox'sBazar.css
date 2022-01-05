@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.body{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #DEF0F1;
+
+}
+
+/* menu part css start here  */
+.menu_bg{
+    background-color: #186267;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #F8904D;
+}
+
+
+/* banner part css start here  */
+#banner{
+    background: url(../img/hotelDetailsCoxBazar/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_part{
+    padding-top: 450px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+.banner_part h4{
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.banner_part h3{
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 38px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* path part css start here  */
+.showing_path{
+    margin-top: 20px;;
+}
+#main_part{
+    margin-top: 50px;
+}
+.map img{
+    margin-bottom: 30px;
+}
+.map a{
+    padding: 13px 103px;
+    background-color: blue;
+    color: white;
+    border-radius: .5rem;
+}
+.map a:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+.filter{
+    margin-top: 20px;
+}
+.form{
+    margin-bottom: 10px;
+}
+.filter{
+    background-color: white;
+    border: 0.5px solid rgb(148, 148, 148);
+    border-radius: 0.2rem;
+    padding-left: 30px;
+    padding-top: 30px;;
+    padding-bottom: 20px;
+}
+.hotel_details h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.hotel_desc{
+    margin-top: 50px;
+    background-color: white;
+    padding-right: 20px;
+    border: 0.5px solid rgb(131, 131, 131);
+    border-radius: 0.3rem;
+    box-shadow: 3px 3px 6px rgb(94, 93, 92);
+}
+.hotel_pic img{
+    padding: 12px;
+}
+.description h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: blue;
+    margin-top: 10px;
+}
+.description h5{
+    font-size: 16px;
+    padding-top: 2px;
+    margin-top: 0px;
+}
+.description p{
+    font-size: 12px;
+}
+.needColor{
+    color: rgb(228, 206, 7);
+}
+.description a{
+    padding: 7px 20px;
+    color: white;
+    background-color: blue;
+    margin-right: 10px;
+}
+.nxt_page{
+    margin-top: 30px;
+    display: flex;
+}
+.one,.two,.three,.four{
+    padding: 9px 20px;
+    padding-top: 11px;
+    background-color: #B3D2DF;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.nxt{
+    padding: 9px 20px;
+    padding-top: 11px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.one:hover,.two:hover,.three:hover,.four:hover,.nxt:hover{
+    background-color: cornsilk;
+    color: black;
+}
+
+
+/* footer part css start here  */
+footer{
+    margin-top: 30px;
+    background-color: #186267;
+    padding-bottom: 40px;
+}
+.footer_part{
+    padding-top: 50px;
+}
+.footer_part p{
+    padding-top: 20px;
+    font-size: 13px;
+    color: rgb(211, 210, 208);
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.sec_part h4{
+    color: white;
+    text-transform: uppercase;
+}
+.icon_list a{
+    padding-right: 8px;
+}
+.sec_part h4{
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.underline1{
+    height: 2px;
+    width: 130px;
+    background-color: blanchedalmond;
+}
+.underline{
+    height: 2px;
+    width: 130px;
+    background-color: blanchedalmond;
+}
+.short_links{
+    padding-top: 25px;
+}
+.s_lower{
+    margin-bottom: 20px;
+}
+.short_links ul{
+    padding-left: 0px;
+    color: white;
+}
+.short_links ul li{
+    font-size: 15px;
+    padding-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.short_links a{
+    color: white;
+}
+.short_links a:hover{
+    color: #F8904D;
+}
+.contacts{
+    padding-top: 50px;
+}
+.contacts h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.underlinee{
+    height: 2px;
+    width: 135px;
+    background-color: blanchedalmond;
+}
+.con_info{
+    padding-top: 25px;
+}
+.con_info h5{
+    font-size: 15px;
+    color: white;
+}
+.s2nd{
+    padding-left: 43px;
+}
+.t3nd{
+    padding-left: 38px;
+}
+.g_head{
+    padding-top: 50px;
+}
+.g_head h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.image_sec{
+    padding-top: 30px;
+}
+.img_sec1 img,.img_sec2 img{
+    padding-bottom: 20px;
+}
+.con_info p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: rgb(255, 255, 255);
+}
+.new_clr{
+    color: rgb(255, 174, 0);
+    font-family: 'Patrick Hand', cursive;
+}
+.contacts{
+    margin-left: 56px;
+}

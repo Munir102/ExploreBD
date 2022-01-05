@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+  }
+  ul,ol{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .body{
+      scroll-behavior: smooth;
+  }
+  body{
+      background-color: #DEF0F1;
+  }
+  /* menu part css start here  */
+  .menu_bg{
+    background-color: #186267;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+    color: #F8904D;
+  }
+
+/*Contant start*/
+
+.about_contant {
+    margin-top: 60px;
+    line-height: 30px;
+    color: #3e3e3e;
+    text-align: justify;
+    font-size: 120%;
+    margin-bottom: 25px;
+}
+.about_contant h1{
+    font-weight: bold;
+    margin: 25px 0;
+    
+}
+.gly_img {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+
+.gly_overlay {
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.69);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all linear .6s;
+}
+.gly_overlay a{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+.gly_img:hover .gly_overlay{
+   transform: scale(1);
+   left: 0;
+   transition: all linear .6s;
+}
+.btn btn-primary{
+    background-color: #186267;
+    width: 100%;
+    padding: 15px 0;
+    margin: 30px 0;
+}
+.row .b1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.d{
+    font-weight: bold;
+    
+}
+.about_head h4{
+    text-align: center;
+    margin: 40px 0;
+    background-color: #255c5c;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+/* footer part css start here  */
+
+footer{
+    background-color: #186267;
+    padding-bottom: 40px;
+}
+.footer_part{
+    padding-top: 50px;
+}
+.footer_part p{
+    padding-top: 20px;
+    font-size: 13px;
+    color: rgb(211, 210, 208);
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.sec_part h4{
+    color: white;
+    text-transform: uppercase;
+}
+.icon_list a{
+    padding-right: 8px;
+}
+.sec_part h4{
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.underline1{
+    height: 2px;
+    width: 130px;
+    background-color: blanchedalmond;
+}
+.underline{
+    height: 2px;
+    width: 130px;
+    background-color: blanchedalmond;
+}
+.short_links{
+    padding-top: 25px;
+}
+.s_lower{
+    margin-bottom: 20px;
+}
+.short_links ul{
+    padding-left: 0px;
+    color: white;
+}
+.short_links ul li{
+    font-size: 15px;
+    padding-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.short_links a{
+    color: white;
+}
+.short_links a:hover{
+    color: #F8904D;
+}
+.contacts{
+    padding-top: 50px;
+}
+.contacts h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.underlinee{
+    height: 2px;
+    width: 135px;
+    background-color: blanchedalmond;
+}
+.con_info{
+    padding-top: 25px;
+}
+.con_info h5{
+    font-size: 15px;
+    color: white;
+}
+.s2nd{
+    padding-left: 43px;
+}
+.t3nd{
+    padding-left: 38px;
+}
+.g_head{
+    padding-top: 50px;
+}
+.g_head h4{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.image_sec{
+    padding-top: 30px;
+}
+.img_sec1 img,.img_sec2 img{
+    padding-bottom: 20px;
+}
+.con_info p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: rgb(255, 255, 255);
+}
+.new_clr{
+    color: rgb(255, 174, 0);
+    font-family: 'Patrick Hand', cursive;
+}
+.contacts{
+    margin-left: 56px;
+}
+
+
+/* footer part css end here */
+
